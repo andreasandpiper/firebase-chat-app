@@ -1,18 +1,18 @@
 {
-  "name": "react_starter",
+  "name": "firebase_react_chat",
   "version": "1.0.0",
-  "description": "Starting setup for react redux project",
+  "description": "A chat app using React and Firebase",
   "main": "index.js",
   "scripts": {
     "start": "node dev_server.js",
     "bundle": "node_modules/.bin/webpack --config webpack.deploy.config.js --progress --colors",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Scott Bowler",
+  "author": "Andrea Wayte",
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Learning-Fuze/react_starter.git"
+    "url": "https://github.com/andreasandpiper/firebase-chat-app.git"
   },
   "dependencies": {
     "babel-polyfill": "^6.26.0",
