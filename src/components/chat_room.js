@@ -21,6 +21,10 @@ class ChatRoom extends Component{
         })
     }
 
+    componentWillUnmount(){
+        db.ref(`/chat-logs/${this.props.match.params.logId}`).off();
+    }
+
     sendMessage(e){
         e.preventDefault();
         this.props.sendNewMessage(this.props.roomInfo.chatLogId, this.state.msg);
